@@ -32,7 +32,7 @@ class RecipeAdapter():
 
     override fun getItemCount() = dataset.size
 
-    fun setData(dataset: List<Recipe>){
+    fun setData(dataset: String){
         this.dataset = dataset
         notifyDataSetChanged()
     }
